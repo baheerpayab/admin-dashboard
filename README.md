@@ -1,7 +1,7 @@
 # Admin-Dashboard
 
-<p align="center">
-  <img src="/images/dashboard.png" width="600" alt="project pic">
+<p float="left" align="center">
+  <img src="/images/dashboard.png" width="500" alt="project pic">
   <img src="/images/dashboard-mobile.png" width="400" alt="project mobile pic">
 </p>
 <h3 align="center">
