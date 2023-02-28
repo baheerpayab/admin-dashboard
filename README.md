@@ -1,8 +1,8 @@
 # Admin-Dashboard
 
 <p float="left" align="center">
-  <img src="/images/dashboard.png" width="500" alt="project pic">
-  <img src="/images/dashboard-mobile.png" width="260" alt="project mobile pic">
+  <img src="/images/dashboard.png" width="600" alt="project pic">
+  <img src="/images/dashboard-mobile.png" height="500" alt="project mobile pic">
 </p>
 <h3 align="center">
 <a href="https://baheerpayab.github.io/admin-dashboard/">Live Demo</a>
