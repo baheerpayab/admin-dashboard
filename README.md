@@ -1,1 +1,25 @@
-# admin-dashboard
+# Admin-Dashboard
+
+<p align="center">
+  <img src="/images/dashboard.png" width="600" alt="project pic">
+</p>
+<h3 align="center">
+<a href="https://baheerpayab.github.io/admin-dashboard/">Live Demo</a>
+</h3>
+
+### Project
+
+Final Project of the Intermediate HTML & CSS Course on The Odin Project.
+Testing and using CSS Grid to create an admin dashboard.
+
+#### Learned:
+- CSS Grid
+- display optimizations
+- hamburger menus
+- fortifying HTML, CSS, and JS skills
+
+### Built With
+
+* HTML
+* CSS
+* JavaScript
