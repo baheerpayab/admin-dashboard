@@ -2,7 +2,7 @@
 
 <p float="left" align="center">
   <img src="/images/dashboard.png" width="600" alt="project pic">
-  <img src="/images/dashboard-mobile.png" height="280" alt="project mobile pic">
+  <img src="/images/dashboard-mobile.png" height="330.56" alt="project mobile pic">
 </p>
 <h3 align="center">
 <a href="https://baheerpayab.github.io/admin-dashboard/">Live Demo</a>
