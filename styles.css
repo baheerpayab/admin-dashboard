@@ -498,3 +498,12 @@ input[type="checkbox"]:checked + label::after {
         display: none;
     }
 }
+
+@media (max-width: 450px) {
+    #name {
+        display: none;
+    }
+    .time-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
