@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+    <body>
+        <div id="sidebar" class="sidebar">
+            <div class="logo" id="logo">
+                <svg id="logo-70" width="78" height="30" viewBox="0 0 78 30" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M18.5147 0C15.4686 0 12.5473 1.21005 10.3934 3.36396L3.36396 10.3934C1.21005 12.5473 0 15.4686 0 18.5147C0 24.8579 5.14214 30 11.4853 30C14.5314 30 17.4527 28.7899 19.6066 26.636L24.4689 21.7737C24.469 21.7738 24.4689 21.7736 24.4689 21.7737L38.636 7.6066C39.6647 6.57791 41.0599 6 42.5147 6C44.9503 6 47.0152 7.58741 47.7311 9.78407L52.2022 5.31296C50.1625 2.11834 46.586 0 42.5147 0C39.4686 0 36.5473 1.21005 34.3934 3.36396L15.364 22.3934C14.3353 23.4221 12.9401 24 11.4853 24C8.45584 24 6 21.5442 6 18.5147C6 17.0599 6.57791 15.6647 7.6066 14.636L14.636 7.6066C15.6647 6.57791 17.0599 6 18.5147 6C20.9504 6 23.0152 7.58748 23.7311 9.78421L28.2023 5.31307C26.1626 2.1184 22.5861 0 18.5147 0Z" class="ccustom" fill="#ffffff"></path> <path d="M39.364 22.3934C38.3353 23.4221 36.9401 24 35.4853 24C33.05 24 30.9853 22.413 30.2692 20.2167L25.7982 24.6877C27.838 27.8819 31.4143 30 35.4853 30C38.5314 30 41.4527 28.7899 43.6066 26.636L62.636 7.6066C63.6647 6.57791 65.0599 6 66.5147 6C69.5442 6 72 8.45584 72 11.4853C72 12.9401 71.4221 14.3353 70.3934 15.364L63.364 22.3934C62.3353 23.4221 60.9401 24 59.4853 24C57.0498 24 54.985 22.4127 54.269 20.2162L49.798 24.6873C51.8377 27.8818 55.4141 30 59.4853 30C62.5314 30 65.4527 28.7899 67.6066 26.636L74.636 19.6066C76.7899 17.4527 78 14.5314 78 11.4853C78 5.14214 72.8579 0 66.5147 0C63.4686 0 60.5473 1.21005 58.3934 3.36396L39.364 22.3934Z" class="ccustom" fill="#7b7b7b"></path> </svg>
+                <span id="close" class="material-symbols-rounded close">
+                    close
+                    </span>
+                <p>logoipsum</p>
+            </div>
+            <nav class="navbar">
+                <div class="nav-btn-container">
+                    <div id="overview" class="nav-btn">
+                        <span class="material-symbols-outlined">
+                            home
+                            </span>
+                        <p>Overview</p>
+                    </div>
+                    <div class="nav-btn">
+                        <span class="material-symbols-outlined">
+                            table_chart
+                            </span>
+                        <p>Spreadsheets</p>
+                    </div>
+                    <div class="nav-btn">
+                        <span class="material-symbols-outlined">
+                            badge
+                            </span>
+                        <p>Employees</p>
+                    </div>
+                    <div class="nav-btn">
+                        <span class="material-symbols-outlined">
+                            lightbulb
+                            </span>
+                        <p>Idea Room</p>
+                    </div>
+                    <div id="contacts" class="nav-btn">
+                        <span class="material-symbols-outlined">
+                            contacts
+                            </span>
+                        <p>Contacts</p>
+                    </div>
+                </div>
+            <div class="nav-btn-container">
+                <div class="nav-btn">
+                    <span class="material-symbols-outlined">
+                        settings
+                        </span>
+                    <p>Settings</p>
+                    </div>
+                <div class="nav-btn">
+                    <span class="material-symbols-outlined">
+                        workspace_premium
+                        </span>
+                    <p>Premium</p>
+                </div>
+            </div>
+            </nav>
+        </div>
+        <main class="main-grid">
+            <header>
+                <div id="hamburger" class="hamburger">
+                    <span class="material-symbols-rounded hamburger-icon">
+                            menu
+                        </span>
+                </div>
+                <h1>Overview</h1>
+                <div class="right-nav">
+                    <div class="search-bar" id="search-bar">
+                        <span class="material-symbols-outlined search">
+                            search
+                            </span>
+                    </div>
+                    <span class="material-symbols-outlined notif">
+                        notifications
+                        </span>
+                    <p id="name">John Moscow</p>
+                    <div id="profile"><span class="material-symbols-outlined account-circle">
+                        account_circle
+                        </span></div>
+                </div>
+            </header>
+            <div class="time-section" id="time-selection">
+                <button class="time-btn" id="today">TODAY</button>
+                <button class="time-btn" id="week">WEEK</button>
+                <button class="time-btn" id="month">MONTH</button>
+                <button class="time-btn" id="year">YEAR</button>
+            </div>
+            <div class="stats-section" id="stats-section">
+                <div class="stats-box">
+                    <h3>Revenue</h3>
+                    <p>$55,345</p>
+                </div>
+                <div class="stats-box">
+                    <h3>Costs</h3>
+                    <p>$7,829</p>
+                </div>
+                <div class="stats-box">
+                    <h3>Profit</h3>
+                    <p>$47,516</p>
+                </div>
+            </div>
+            <div class="graph-section" id="graph-section">
+                <div class="graph-div" id="graph-div">
+                    <img class="graph" src="images/svg-chart-01.png"/>
+                </div>
+                <div class="graph-selection" id="graph-selection">
+                    <button id="revenue">Revenue</button>
+                    <button id="cost">Cost</button>
+                    <button id="profit">Profit</button>
+                    <button id="growth">Growth</button>
+                    <button id="customers">Customers</button>
+                </div>
+            </div>
+            <div class="goals-section" id="goals-section">
+                <div class="goals-box" id="current-goals">
+                    <h3>Current Goals</h3>
+                    <div class="checkbox-container">
+                        <div class="checkbox">
+                            <input type="checkbox" id="goal-1" value="goal-1" name="goal"/>
+                            <label for="goal-1"></label>
+                        </div>
+                            <p>Double profits by the end of this year</p>
+                    </div>
+                    <div class="checkbox-container">
+                        <div class="checkbox">
+                            <input type="checkbox" id="goal-2" value="goal-2" name="goal"/>
+                            <label for="goal-2"></label>
+                        </div>
+                            <p>Reduce costs by 20% this year</p>
+                    </div>
+                    <div class="checkbox-container">
+                        <div class="checkbox">
+                            <input type="checkbox" id="goal-3" value="goal-3" name="goal"/>
+                            <label for="goal-3"></label>
+                        </div>
+                        <p>Merge with that company</p>
+                    </div>
+                </div>
+                <div class="goals-box" id="achieved-goals">
+                    <h3>Goals Achieved</h3>
+                    <div><span class="material-symbols-outlined check-circle">
+                        circle
+                        </span>
+                    <p>Improve workspace environment</p></div>
+                    <div><span class="material-symbols-outlined check-circle">
+                        circle
+                        </span>
+                    <p>Reduce electricity costs by 30%</p></div>
+                    <div><span class="material-symbols-outlined check-circle">
+                        circle
+                        </span>
+                    <p>Increase profits by 5% this month</p></div>
+                </div>
+                </div>
+
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
